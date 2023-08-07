@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\MyPortfolioLink.png" />
+    <None Remove="images\RestaunrantLogo.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\MyPortfolioLink.png" />
+    <Resource Include="images\RestaunrantLogo.PNG" />
+  </ItemGroup>
+
+</Project>
